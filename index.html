@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- --------- UNICONS ---------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- --------- FAVICON ---------- -->
+    <link rel="icon"  type="image/png" href="logo1.png">
+
+    <title>Portfolio | Andre Dela Cruz</title>
+</head>
+<body>
+   <div class="container">
+    <!-- --------------- HEADER --------------- -->
+      <nav id="header">
+        <div class="nav-logo">
+            <p class="nav-name">Drei</p>
+            <span>.</span>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+            <ul class="nav_menu_list">
+                <li class="nav_list">
+                    <a href="#home" class="nav-link active-link">Home</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#about" class="nav-link">About</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#projects" class="nav-link">Gallery</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#contact" class="nav-link">Contact</a>
+                    <div class="circle"></div>
+                </li>
+            </ul>
+        </div>
+        <a href="download/syy.jpg" download>
+            <div class="nav-button">
+                <button class="btn">Download Hidden Pic<i class="uil uil-import"></i></button>
+            </div>
+            </a>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>   
+      </nav>
+
+
+    <!-- -------------- MAIN ---------------- -->
+    <main class="wrapper">
+       <!-- -------------- FEATURED BOX ---------------- -->
+       <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-text-card">
+                <span>Andre Miguel Dela Cruz</span>
+            </div>
+            <div class="featured-name">
+                <p>I'm a <span class="typedText"></span></p>
+            </div>
+            <div class="featured-text-info">
+                <p>Hi! Im Drei, and welcome to my Web Portfolio. On this website, you may get to know me. Feel free to browse!
+                </p>
+            </div>
+            <div class="featured-text-btn">
+                <a href="https://www.facebook.com/Aeirizee/" target="_blank">
+                <button class="btn blue-btn">See me!</button></a>
+                <a href="https://m.me/Aeirizee/" target="_blank">
+                <button class="btn">Direct Message<i class="uil uil-facebook-messenger"></i></button>
+                </a>
+            </div>
+            <div class="social_icons">
+                <a href="https://www.instagram.com/_aeirizeee_/" target="_blank" class="icon"><i class="uil uil-instagram"></i></a>
+                <a href="https://www.facebook.com/Aeirizee/" target="_blank" class="icon"><i class="uil uil-facebook-f"></i></a>
+                <a href="https://www.youtube.com/channel/UCKP5XPTnUjoGQQZoyyISadA" target="_blank" class="icon"><i class="uil uil-youtube"></i></a>
+            </div>
+          </div>
+          <div class="featured-image">
+            <div class="image">
+                <img src="DP.jpg" alt="avatar">
+            </div>
+          </div>
+          <div class="scroll-icon-box">
+            <a href="#about" class="scroll-btn">
+                <i class="uil uil-mouse-alt"></i>
+                <p>Scroll Down</p>
+            </a>
+          </div>
+
+       </section>
+       <!-- -------------- ABOUT BOX ---------------- -->
+       <section class="section" id="about">
+          <div class="top-header">
+            <h1>About Me</h1>
+          </div>
+          <div class="row">
+            <div class="col">
+                <div class="about-info">
+                    <h3>My introduction</h3>
+                    <p>I'm a college student who wants to learn how to program, develop software, and create web designs. 
+                        I am also a second son who seeks the best for my family, as well as an SK Councilor in our barangay, 
+                        where I carry out my obligations and responsibilities to my fellow barangay neighbors.
+                    </p>
+                    <a href="download/syy.jpg" download>
+                    <div class="about-btn">
+                        <button class="btn">Download Hidden Pic <i class="uil uil-import"></i></button>
+                    </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Hobby</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>Reading</span>
+                        <span>Playing Online Games</span>
+                        <span>Sleeping</span>
+                        <span>Programming</span>
+                        <span>Photography</span>
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Favorite Food</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>Bopis</span>
+                        <span>Sisig</span>
+                        <span>Sinigang</span>
+                        <span>Kare-Kare</span>
+                        <span>Carbonara</span>
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Family</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>Father: Ronaldo Dela Cruz</span>
+                        <span>Mother: Jacqueline Dela Cruz</span>
+                        <span>Brother: Allain Micko Dela Cruz</span>
+                    </div>
+                </div>
+            </div>
+          </div>
+       </section>
+
+       <!-- -------------- PROJECT BOX ---------------- -->
+       
+       <section class="section" id="projects">
+          <div class="top-header">
+              <h1>Gallery</h1>
+          </div>
+          <div class="project-container">
+            <div class="project-box">
+                <i class="uil uil-user"></i>
+                <h3><a class='btn' href='pageone.html' target="_blank">See Photos</a></h3>
+                <label>My Pictures</label>
+            </div>
+            <div class="project-box">
+                <i class="uil uil-users-alt"></i>
+                <h3><a class='btn' href='pagetwo.html' target="_blank">See Photos</a></h3>
+                <label>Family Pictures</label>
+            </div>
+            <div class="project-box">
+                <i class="uil uil-capture"></i>
+                <h3><a class='btn' href='pagethree.html' target="_blank">See Photos</a></h3>
+                <label>Random Pictures</label>
+            </div>
+          </div>
+       </section>
+
+       <!-- -------------- CONTACT BOX ---------------- -->
+
+       <section class="section" id="contact">
+          <div class="top-header">
+            <h1>Get in touch!</h1>
+            <span>Do you wanna hangout?</span>
+          </div>
+          <div class="row">
+             <div class="col">
+                <div class="contact-info">
+                    <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                    <p><i class="uil uil-envelope"></i>Email: amdelacruz0514@gmail.com</p>
+                    <p><i class="uil uil-phone"></i>Phone: 0945489****</p>
+                </div>
+             </div>
+             
+                <div class="col">
+                   <form action="https://api.web3forms.com/submit" method="POST">
+                   <div class="form-control">
+                       <div class="form-inputs">
+                         <input type="hidden" name="access_key" value="b1d79083-6189-4205-b9a4-829292f13b25">
+                         <input type="text" name="name" class="input-field" placeholder="Name" required>
+                         <input type="text" name="Email" class="input-field" placeholder="Email" required>
+                       </div>
+                       <div class="text-area">
+                         <textarea name="message" placeholder="Your Message" class="text-area" required></textarea>
+                         </div>
+                       <div class="form-button">
+                           <button type="submit" class="btn">Send <i class="uil uil-message"></i></button>
+                       </div>
+                   </div>
+                   </form>
+                </div>
+          </div>
+       </section>
+
+    </main>
+
+
+    <!-- --------------- FOOTER --------------- -->
+    <footer>
+        <div class="top-footer">
+            <p>Dela Cruz, Andre Miguel</p>
+        </div>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer_menu_list">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#about">About</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#projects">Gallery</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-social-icons">
+            <a href="https://www.instagram.com/_aeirizeee_/" target="_blank" class="icon"><i class="uil uil-instagram"></i></a>
+                <a href="https://www.facebook.com/Aeirizee/" target="_blank" class="icon"><i class="uil uil-facebook-f"></i></a>
+                <a href="https://www.youtube.com/channel/UCKP5XPTnUjoGQQZoyyISadA" target="_blank" class="icon"><i class="uil uil-youtube"></i></a>
+        </div>
+        <div class="bottom-footer">
+            <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Drei</a> - All rights reserved</p>
+        </div>
+    </footer>
+
+    </div>
+
+
+
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+       <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="main.js"></script>
+</body>
+</html>
